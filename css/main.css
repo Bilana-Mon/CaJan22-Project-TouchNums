@@ -1,69 +1,78 @@
 body{
-    background-color: lightsalmon;
+    background-color: rgb(28, 88, 88);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
 }
 
 
 h1{
-    text-align: center;
-    font-weight: bold;
-    color: rgb(24, 90, 87);
-    text-shadow: 2px 2px 5px red;
-    margin-left: 35%;
-    margin-right: 35%;
+    width: 100px;
+    height: 100px;
+    color: lightcoral;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px 2px black;
 }
 
-
-img{
-    border: 2px solid lightgreen;
-    border-radius: 5px;
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    box-shadow: 2px 2px 5px lightgreen;
+table{
+    background-color: rgb(3, 87, 3);
     align-self: center;
-}
-
-
-.btn-answer{
-    background-color: rgb(95, 179, 231);
-    color: rgb(6, 37, 36);
-    border: 2px solid rgb(189, 133, 133);
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgb(189, 133, 133);
-    margin: 10px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
     padding: auto;
+    box-shadow: 2px 2px black;
 }
 
-
-.quest-pic{
-    width: 45%;
-    height: 45%;
-    margin: auto;
-    padding: 5px;
-}
-
-
-.reset{
-    background-color: lightseagreen;
-    color: rgb(6, 37, 36);
-    border: 2px solid rgb(15, 104, 99);
+td{
+    background-color: rgb(85, 207, 85);
+    border: 2px solid rgb(3, 87, 3);
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgb(6, 37, 36);
-    margin: auto;
-    width: 30%;
-    padding: auto;
+    padding: 30px;
+}
+
+td:hover{
+    border:2px solid darkgoldenrod;
+}
+
+.timer-count{
     text-align: center;
-    font-weight: bold;
+    background-color: rgb(31, 167, 126);
+    border: 2px solid;
+    border-radius: 5px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    box-shadow: 3px 3px black;
 }
 
-.modal {
-    
-    display: block; 
-    position: fixed; 
-    z-index: 1; 
-    left: 55%;
-    top: 80%;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
+.btn button{
+    background-color: lightsalmon;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 2px rgb(10, 12, 12);
+}
+
+.clicked{
+    background-color: grey;
+}
+
+.new-game{
+    background-color: lightcoral;
+    border: 2px solid lightcyan;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px;
+    box-shadow: 3px 3px black;
 }
