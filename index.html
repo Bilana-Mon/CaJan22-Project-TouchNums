@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Nums</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+    <h1>Touch the Numbers</h1>
+    <button class="new-game" onclick="init()">New Game</button>
+    <div class="btn">
+        <button class="easy" onclick="clickBtn(this)">Easy</button>
+        <button class="hard" onclick="clickBtn(this)">Hard</button>
+        <button class="extreme" onclick="clickBtn(this)">Extreme</button>
+    </div>
+
+    <div class="timer-count">
+        <span id="second">00</span>:<span id="millisecond">000</span>
+    </div>
+
+    <div class="table">
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
